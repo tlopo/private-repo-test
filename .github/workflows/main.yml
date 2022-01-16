@@ -23,3 +23,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          echo $SUPER_SECRET
+          echo $SUPER_SECRET | base64 -w 0
